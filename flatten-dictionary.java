@@ -22,13 +22,13 @@ class Ideone
 		 * {
 			 'Key1': '1',
   			 'Key2': {
-    	  	 'a' : '2',
-    		 'b' : '3',
-    	     'c' : {
-      		 'd' : '3',
-      	     'e' : '1'
-    	     		}
-  			 	}
+    	  	    		 'a' : '2',
+		    		 'b' : '3',
+    	     			 'c' : {
+      		 		 	'd' : '3',
+      	     				'e' : '1'
+    	     				}
+  			 	 }
     	  	 }
     	  	 
     	  	 Output should look like this:
@@ -38,7 +38,7 @@ class Ideone
 				  'Key2.b' : '3',
 				  'Key2.c.d' : '3',
 				  'Key2.c.e' : '1'
-			}
+		}
     	  	 
     	  **/
 	}
